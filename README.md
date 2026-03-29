@@ -1,7 +1,7 @@
-# Fraud Detection EDA Project
+# Fraud Detection Spark Project
 
 ## Overview
-This project performs an Exploratory Data Analysis (EDA) on a synthetic fraud detection dataset (Credit Card Fraud Detection). The goal is to identify patterns, understand class imbalance, and prepared the data for predictive modeling.
+This project performs an Exploratory Data Analysis (EDA) and data processing on a synthetic fraud detection dataset (Credit Card Fraud Detection) using Spark.
 
 ## Dataset
 The project uses the `fraudTrain.csv` and `fraudTest.csv` datasets. Due to their large size (>100MB), these files are excluded from the git repository and should be placed in the `Data/` directory locally.
@@ -12,7 +12,7 @@ The project uses the `fraudTrain.csv` and `fraudTest.csv` datasets. Due to their
 - **Data Quality:** Clean dataset with no missing values.
 
 ## Contents
-- `EDA.ipynb`: Jupyter Notebook containing the full analysis and visualizations.
+- `Spark.ipynb`: Jupyter Notebook containing the full analysis and Spark data processing.
 - `plots/`: Generated visualization plots (excluded from git).
 
 ## Setup
