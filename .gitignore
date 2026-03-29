@@ -1,0 +1,15 @@
+# Data files
+Data/
+plots/
+
+# Python environment
+__pycache__/
+*.pyc
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# Other summaries
+eda_summary.txt
+create_notebook.py
+eda.py
